@@ -10,6 +10,7 @@
 
 .intro {
     text-align: center;
+<<<<<<< HEAD
     height: 90vh;
 }
 
@@ -28,4 +29,11 @@
 
 #header-text {
     text-decoration: underline !important;
+=======
+}
+
+.nav-item:hover {
+    border-top: black;
+    border-bottom: black;
+>>>>>>> 76090d0b7eff05b5a8e7b6abf0c2c5874f4451c7
 }
