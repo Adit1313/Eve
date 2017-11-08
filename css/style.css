@@ -19,7 +19,7 @@
 
 .about {
     background-color: #EEEEEE;
-    height: 100vh;
+
 }
 
 .nav-link:hover {
@@ -33,7 +33,6 @@
 .nav-item:hover {
     border-top: black;
     border-bottom: black;
-<<<<<<< HEAD
 }
 
 #fom-btn {
@@ -48,8 +47,6 @@
     padding: 2%;
     border-radius: 4px;
     color: white;
-=======
-<<<<<<< HEAD
 }
 
 .ac {
@@ -62,8 +59,4 @@
     line-height: 1.55;
     margin-bottom: 30px;
     border-radius: .3rem;
-=======
->>>>>>> 76090d0b7eff05b5a8e7b6abf0c2c5874f4451c7
->>>>>>> 60aefc184d5ac73e92e5649045ac65c0bb1e0671
->>>>>>> other_content
 }
