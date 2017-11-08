@@ -17,11 +17,6 @@
     display: inline-block;
 }
 
-.about {
-    background-color: #EEEEEE;
-
-}
-
 .nav-link:hover {
     text-decoration: underline !important;
 }
