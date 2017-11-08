@@ -8,13 +8,34 @@
     background-image: linear-gradient(to right, #3A7BDF 0%, #00D4FF 100%);
 }
 
-.intro-text {
+.intro {
     text-align: center;
+<<<<<<< HEAD
+    height: 90vh;
+}
+
+.img-container {
+    display: inline-block;
+}
+
+.about {
+    background-color: #EEEEEE;
+    height: 100vh;
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+#header-text {
+    text-decoration: underline !important;
+=======
 }
 
 .nav-item:hover {
     border-top: black;
     border-bottom: black;
+<<<<<<< HEAD
 }
 
 .ac {
@@ -27,4 +48,7 @@
     line-height: 1.55;
     margin-bottom: 30px;
     border-radius: .3rem;
+=======
+>>>>>>> 76090d0b7eff05b5a8e7b6abf0c2c5874f4451c7
+>>>>>>> 60aefc184d5ac73e92e5649045ac65c0bb1e0671
 }
