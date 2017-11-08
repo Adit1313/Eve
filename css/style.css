@@ -8,6 +8,24 @@
     background-image: linear-gradient(to right, #3A7BDF 0%, #00D4FF 100%);
 }
 
-.intro-text {
+.intro {
     text-align: center;
+    height: 90vh;
+}
+
+.img-container {
+    display: inline-block;
+}
+
+.about {
+    background-color: #EEEEEE;
+    height: 100vh;
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+#header-text {
+    text-decoration: underline !important;
 }
