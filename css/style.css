@@ -10,8 +10,7 @@
 
 .intro {
     text-align: center;
-<<<<<<< HEAD
-    height: 90vh;
+    height: 92vh;
 }
 
 .img-container {
@@ -29,11 +28,23 @@
 
 #header-text {
     text-decoration: underline !important;
-=======
 }
 
 .nav-item:hover {
     border-top: black;
     border-bottom: black;
->>>>>>> 76090d0b7eff05b5a8e7b6abf0c2c5874f4451c7
+}
+
+#fom-btn {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat';
+    margin-top: 3%;
+}
+
+.info-panel {
+    background-image: linear-gradient(to right, #3A7BDF 0%, #00D4FF 100%);
+    padding: 2%;
+    border-radius: 4px;
+    color: white;
 }
