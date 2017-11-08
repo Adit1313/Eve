@@ -11,3 +11,8 @@
 .intro-text {
     text-align: center;
 }
+
+.nav-item:hover {
+    border-top: black;
+    border-bottom: black;
+}
