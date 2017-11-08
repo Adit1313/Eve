@@ -10,7 +10,7 @@
 
 .intro {
     text-align: center;
-    height: 92vh;
+
 }
 
 .img-container {
@@ -54,4 +54,9 @@
     line-height: 1.55;
     margin-bottom: 30px;
     border-radius: .3rem;
+}
+
+@media (max-width: 1024px){
+    #main-img {padding-top: 0 !important;}
+    #main-img
 }
