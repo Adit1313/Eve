@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		
@@ -57,7 +58,14 @@
 						</div>
 					</div>
 				</div>
-
+				<div class="row">
+				    <div class="col-lg-6">
+				        <div id="test-circle"></div>
+				    </div>
+				    <div class="col-lg-6">
+				        <div id="other-circle"></div>
+				    </div>
+				</div>
 			</div>
 		</div>
 
@@ -106,5 +114,26 @@
 		<script src="js/script.js"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.js"></script>
+		<script src="js/jquery.circliful.min.js"></script>
+		<script>
+		    $( document ).ready(function() {
+			$("#test-circle").circliful({
+		                animationStep: 5,
+		                foregroundBorderWidth: 5,
+		                backgroundBorderWidth: 15,
+		                percent: 72,
+		                percentageY: 90,
+		                text: 'Data Saved'
+		           });
+		    $("#test-circle").circliful({
+		                animationStep: 5,
+		                foregroundBorderWidth: 5,
+		                backgroundBorderWidth: 15,
+		                percent: 57 ,
+		                percentageY: 90,
+		                text: 'Time Saved'
+		           });
+		});
+		</script>
 	</body>
 </html>
