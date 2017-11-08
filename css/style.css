@@ -22,12 +22,7 @@
 }
 
 #header-text {
-    text-decoration: underline !important;
-}
-
-.nav-item:hover {
-    border-top: black;
-    border-bottom: black;
+    color: #293A46;
 }
 
 #fom-btn {
