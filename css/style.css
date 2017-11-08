@@ -7,3 +7,7 @@
 .navbar {
     background-image: linear-gradient(to right, #3A7BDF 0%, #00D4FF 100%);
 }
+
+.intro-text {
+    text-align: center;
+}
